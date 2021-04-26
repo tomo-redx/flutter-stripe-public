@@ -24,7 +24,6 @@ jobs:
       # -- ここまで追記部分！ -- #
       # 解説:
       #   firebase-hosting-merge.yml のプルリクエストバージョンなのでやることは同じ
-      - run: flutter build web
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
