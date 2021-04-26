@@ -26,7 +26,7 @@ jobs:
         run: flutter pub get
       # -- ここまで追記部分！ -- #
       # 解説:
-      #   ようは flutter build web をたたいても flutterがインストールされていないので動かないということ
+      #  ようは flutter build web をたたいても flutterがインストールされていないので動かないということ
       #   インストールしてPATH通してパッケージダウンロードしているだけ。
 
       # ビルド
